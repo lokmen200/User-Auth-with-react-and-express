@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input{
+  @apply border w-full rounded-xl m-1 p-2
+}
+button.primary{
+  @apply w-full p-1 text-white bg-red-500 rounded-3xl font-semibold text-xl mt-2
+}
